@@ -3,18 +3,18 @@ package com.autocodegen.testspring.dto.request;
 import java.io.Serializable;
 import java.util.Date;
 
-public class EmployeeRequest implements Serializable {
-    private String name;
+public class EmployeeScoreRequest implements Serializable {
+    private long emp_id;
     private String gender;
-    private Date dateOfBirth;
+    private Date dateScored;
     private String address;
 
-    public String getName() {
-        return name;
+    public long getEmpId() {
+        return emp_id;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public void setEmpId(long emp_id) {
+        this.emp_id = emp_id;
     }
 
     public String getGender() {
@@ -25,12 +25,12 @@ public class EmployeeRequest implements Serializable {
         this.gender = gender;
     }
 
-    public Date getDateOfBirth() {
-        return dateOfBirth;
+    public Date getDateScored() {
+        return dateScored;
     }
 
-    public void setDateOfBirth(Date dateOfBirth) {
-        this.dateOfBirth = dateOfBirth;
+    public void setDateScored(Date dateScored) {
+        this.dateScored = dateScored;
     }
 
     public String getAddress() {

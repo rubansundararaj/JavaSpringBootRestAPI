@@ -11,9 +11,7 @@ public class EmployeeResponse implements Serializable {
     private Date dateOfBirth;
     private String address;
 
-    public EmployeeResponse() {
-    }
-    
+
     public Long getId() {
         return id;
     }
